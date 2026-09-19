@@ -1,0 +1,169 @@
+(footprint "Jack_3.5mm_Lumberg_1502_03_Vertical"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Lumberg 1502 03, 3.5mm mono (TS) jack with tip break contact (normalling), vertical/upright, THT, M6x0.5 threaded bushing (4mm) + Ø8 collar for panel mounting with nut, PCB-to-panel 10mm, body 9 x 10.5 x 9mm (Eurorack/Thonkiconn style). Drawn from Lumberg datasheet 1502_03 (07/2025) and the Lumberg STEP; solder eyes 0.3 x 1.3 through the board — slots 0.6 x 1.6 (sheet recommends 0.5 x 1.5). Origin = plug axis. Lumberg pins: 1=S 2=T 3=T break contact. Farnell 1270966.")
+	(tags "audio jack 3.5mm mono TS switched normalling vertical panel nut eurorack Lumberg 1502 03")
+	(property "Reference" "REF**"
+		(at 0 -6.6 0)
+		(layer "F.SilkS")
+		(uuid "f311aa68-3ffe-4d48-8cf9-8c961333212c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jack_3.5mm_Lumberg_1502_03_Vertical"
+		(at 0 6.2 0)
+		(layer "F.Fab")
+		(uuid "6c47608f-be8b-4a47-930c-a325129c9711")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://downloads.lumberg.com/datenblaetter/en/1502_03.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25c791a6-db75-4010-abda-868513d03f77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Lumberg 1502 03 3.5mm mono jack with break contact, vertical THT, M6 bushing + nut"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77316c1e-ea01-4055-8c5e-bea4b460c916")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -5.11 -5.71)
+		(end 4.11 5.01)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9fb8b936-ea12-4849-a018-cdbaa1fdcc82")
+	)
+	(fp_rect
+		(start -5.25 -5.85)
+		(end 4.25 5.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "88d8f6da-be05-488c-90a8-c939fb35da9b")
+	)
+	(fp_rect
+		(start -5 -5.6)
+		(end 4 4.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1a8fee62-4b03-4eaf-ab98-507d3d7c0534")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "aebbf5d6-8f28-4de7-83d4-6172802ad18a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7d7032eb-3388-4e47-b912-eb7fa08481c6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "706d9c0a-064b-4a4a-bab9-980d72dfacb1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.5 -2.5 0)
+		(layer "F.Fab")
+		(uuid "3df19485-9304-4cb0-a2f6-2447145e3f9c")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "S" thru_hole oval
+		(at 0.9 3.7)
+		(size 2.4 1.4)
+		(drill oval 1.6 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "21018c55-db60-475c-8efc-203d55b88f03")
+	)
+	(pad "T" thru_hole oval
+		(at 1.25 -4.4)
+		(size 2.4 1.4)
+		(drill oval 1.6 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bca0a856-5470-422c-bd5d-fa832a88ae05")
+	)
+	(pad "TN" thru_hole oval
+		(at -3.8 1.4)
+		(size 1.4 2.4)
+		(drill oval 0.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ba5f254e-ccf6-4148-b1b6-0618e12b55f8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/audio_connectors/3d/Lumberg_1502_03.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
+)

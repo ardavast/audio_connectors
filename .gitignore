@@ -1,0 +1,15 @@
+.playwright-mcp/
+fp-info-cache
+*.lck
+*-backups/
+*.bak
+
+# local survey material (kept on disk, not part of the library)
+jlcpcb_easyeda_footprints/
+jlcpcb_lcsc_detail.json
+jlcpcb_smd_candidates.md
+tht_shortlist_check.md
+3d/KoreanHroparts_PJ-327C-4A.step
+
+# vendor datasheets: kept locally, symbols/footprints link to the vendor URLs
+datasheets/

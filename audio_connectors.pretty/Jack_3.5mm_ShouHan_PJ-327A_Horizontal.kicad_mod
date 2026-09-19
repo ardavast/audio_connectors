@@ -1,0 +1,264 @@
+(footprint "Jack_3.5mm_ShouHan_PJ-327A_Horizontal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Shou Han PJ-327A 5JJ, 3.5mm stereo (TRS) jack with tip and ring break contacts (normalling), horizontal, SMD, body 11.85 x 6 x 4.6mm + Ø5 x 2.3 bushing, 5 feet, 2 locating pegs Ø1.0 (6.0 apart). Drawn from the Shou Han drawing (2020-06-24, LCSC C668605 datasheet); foot positions taken from the EasyEDA STEP (spacings 3.7/6.0 right column, 7.0 left column match the sheet), pads 2 x 3 per sheet, columns ±3.4. Origin = body centre (excl. bushing), bushing points -X. Pins: 1=S 3=R 5=RN 4=T 2=TN (T deepest per schematic). JLCPCB C668605, Economic and Standard.")
+	(tags "audio jack 3.5mm TRS stereo switched normalling horizontal SMD JLCPCB Shou Han PJ-327A")
+	(property "Reference" "REF**"
+		(at 0 -5.6 0)
+		(layer "F.SilkS")
+		(uuid "4b9d858e-cc82-46f7-9b03-ee8cbd56a6cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jack_3.5mm_ShouHan_PJ-327A_Horizontal"
+		(at 0 5.7 0)
+		(layer "F.Fab")
+		(uuid "5162184e-6a91-4008-a57c-15830a9b8287")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/bbc40f2884975c6069078f03ceaa91db.pdf?productCode=C668605"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c46303c3-7c2f-4787-a87b-9fd5220c9dd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Shou Han PJ-327A 3.5mm TRS jack with T/R break contacts, horizontal SMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5434f541-521f-4fc8-ad97-91bb5d21698e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.035 -3.11)
+		(end -6.035 -2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19be984f-773d-4463-93c0-00688c32f67f")
+	)
+	(fp_line
+		(start -6.035 2.61)
+		(end -6.035 3.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b100830-8eb9-4b53-a1e2-a73b73678fb2")
+	)
+	(fp_line
+		(start 6.035 -3.11)
+		(end 6.035 3.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3f948ea-ddc0-4cf0-b8c7-9591538bb8f3")
+	)
+	(fp_rect
+		(start -8.385 -2.61)
+		(end -6.035 2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "64af141e-c8e3-473a-aebf-e969c13ff107")
+	)
+	(fp_rect
+		(start -8.525 -5.15)
+		(end 6.375 5.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "db2699af-a326-481b-b533-85e36352bc5a")
+	)
+	(fp_rect
+		(start -8.275 -2.5)
+		(end -5.925 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "048788c2-74d3-4192-a6ad-3fdcbe7c05b9")
+	)
+	(fp_rect
+		(start -5.925 -3)
+		(end 5.925 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e8f3d0e2-a737-471c-a205-8a9fe3ec53fb")
+	)
+	(fp_circle
+		(center -8.275 0)
+		(end -8.275 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e0064733-af75-409f-bbd1-692813fd43d4")
+	)
+	(fp_text user "PLUG"
+		(at -7.125 -3.2 0)
+		(layer "F.Fab")
+		(uuid "6a324c01-f10d-43cd-998b-57143e2c7f3b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0022ac3b-5ba9-4ed3-a318-7c6f7357513d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -3.27 0)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "9d597bd9-597b-47c5-8078-055f47115824")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.73 0)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f6e064fa-4c5e-4b5e-b8a0-31fe70cd4133")
+	)
+	(pad "R" smd rect
+		(at -0.82 -3.4)
+		(size 2 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "954f082d-d899-446e-816a-e6e0e484a1ac")
+	)
+	(pad "RN" smd rect
+		(at 5.18 -3.4)
+		(size 2 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "83986aa3-f61d-4d8f-b229-87a71be12c1a")
+	)
+	(fp_line
+		(start -3.32 -3.11)
+		(end -2.02 -3.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 0.38 -3.11)
+		(end 3.98 -3.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -5.925 3.11)
+		(end -4.72 3.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -2.32 3.11)
+		(end 2.18 3.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 4.58 3.11)
+		(end 6.035 3.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(pad "S" smd rect
+		(at -4.52 -3.4)
+		(size 2 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9f3f32f0-b4cd-447d-9092-01bf7a304be3")
+	)
+	(pad "T" smd rect
+		(at 3.38 3.4)
+		(size 2 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a4013ac7-2ead-4f67-971e-a522314f8aa9")
+	)
+	(pad "TN" smd rect
+		(at -3.52 3.4)
+		(size 2 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4f33b7f6-82c0-451e-970d-4b5d52b5fe3f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/audio_connectors/3d/ShouHan_PJ-327A.step"
+		(offset
+			(xyz 0.28 0 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 270)
+		)
+	)
+)

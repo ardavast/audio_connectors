@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "audio_connectors")(type "KiCad")(uri "${KIPRJMOD}/audio_connectors.pretty")(options "")(descr "Project footprints: footprint-verified audio jacks"))
+)
